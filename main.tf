@@ -26,7 +26,7 @@ resource "helm_release" "main" {
   replace   = true
 
   # Pass the direct HTTPS download link to the raw tarball file on GitHub
-  chart = "https://raw.githubusercontent.com/raj-830/simple-helm-app/main/simple-app-0.1.0.tgz"
+  chart = #"https://raw.githubusercontent.com/raj-830/simple-helm-app/main/simple-app-0.1.0.tgz"
 
   set = local.helm_sets
 }
