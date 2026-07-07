@@ -38,3 +38,9 @@ variable "set_inputs" {
   type        = string
   default = "replicaCount:1"
 }
+
+variable "chart" {
+  description = "chart"
+  type        = string
+  default = "https://raw.githubusercontent.com/raj-830/simple-helm-app/main/simple-app-0.1.0.tgz"
+}
